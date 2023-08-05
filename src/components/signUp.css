@@ -28,3 +28,17 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width:478px) {
+    .signup .right p{
+        padding: 0 15px;
+        text-align: center;
+    }
+    
+    .signup .input-container input {
+        width: 90%;
+    }
+    .signup .input-container .btn{
+        width: 90%;
+    }
+}

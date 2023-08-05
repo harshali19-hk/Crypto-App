@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <header className='header'>
         <nav className='container'>
-            <h1><span className='primary'>C</span>rypto</h1>
+            <h1><span className='primary'>De</span>Fi</h1>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
                     <a href="/">Home</a>

@@ -1,52 +1,66 @@
 .hero .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 4rem auto;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 4rem auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 .hero .left {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .hero h1 {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .hero .input-container {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .hero .right {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .hero .img-container {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
 .hero img {
-    max-width: 80%;
-    margin: auto;
+  max-width: 80%;
+  margin: auto;
 }
 
 @media screen and (max-width: 940px) {
-    .hero .container {
-        grid-template-columns: 1fr;
-        margin: 1rem 0;
-    }
+  .hero .container {
+    grid-template-columns: 1fr;
+    margin: 1rem 0;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 425px) {
+  .container .left p {
+    text-align: center;
+  }
+  .container .left h1 {
+    text-align: center;
+  }
+  .input-container {
+    /*  border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    height: 25vh;
+    width: 90vw;
+  }
+  .input-container .btn {
+    width: 90%;
+  }
+  .input-container input {
+    width: 90%;
+  }
+}

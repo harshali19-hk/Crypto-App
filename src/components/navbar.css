@@ -56,7 +56,7 @@ color: #118c4f;
         justify-content: start;
         top: 90px;
         right:-100%;
-        width: 50%;
+        width: 60%;
         height: 100vh;
         transition: 0.4s;
         z-index: 2;
@@ -80,7 +80,14 @@ color: #118c4f;
     }
 }
 
-
+@media screen and (max-width:425px) {
+    .container h1{
+        font-size: 2rem;
+    }
+    .btn-group{
+        width: 50%;
+    }
+}
 
 
 

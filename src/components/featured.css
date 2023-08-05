@@ -4,6 +4,7 @@
     padding: 8rem 0;
     background-color: var(--background);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+    /* border: solid; */
 }
 
 .featured .container {
@@ -34,7 +35,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    /* border: solid; */
 }
 
 .featured .right .card {
@@ -97,7 +98,21 @@
 
 
 @media screen and (max-width: 478px) {
+    .featured{
+        height: 260vh;
+    }
     .featured .container .right .card {
         width: 100%;
+    }
+    .featured .left p ,h2{
+        padding-top: 3rem;
+        text-align: center;
+    }
+    .featured .left p {
+        padding:0 15px;
+       
+    }
+    .featured .container .left .btn{
+        width: 80%;
     }
 }
